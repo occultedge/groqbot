@@ -29,17 +29,19 @@ Always follow this cycle. Keep answers well formatted using markdown.
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-3-8b-instruct",
+        model: "meta-llama/llama-3-8b-instruct",  // ✅ this must be exact
         messages
       })
     });
 
     const data = await response.json();
+    console.log("🔵 Groq response:", JSON.stringify(data));  // ✅ show Groq reply
+
     const reply = data.choices?.[0]?.message?.content || "AI could not respond.";
     res.status(200).json({ reply });
 
   } catch (error) {
-    console.error("❌ Groq API Error:", error);
+    console.error("❌ Groq API Error:", error);  // ✅ will show in Vercel logs
     res.status(500).json({ reply: "Server error. Try again." });
   }
 }
