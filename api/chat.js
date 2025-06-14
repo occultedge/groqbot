@@ -61,7 +61,7 @@ export default async function handler(req, res) {
   <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
   <li>WhatsApp: <a href="https://wa.me/919953330039" target="_blank">+91 99533 30039</a></li>
 </ul>
-<a href="https://www.occultedge.com/saint-austins-form" target="_blank">Apply Now</a>
+
     `.trim()
   };
 
@@ -82,7 +82,7 @@ ${context.summary}
 </ul>
 
 End replies with:
-<strong>“Would you like help applying or exploring more programs? 😊”</strong>
+<strong>“Would you like to know more about our programs? 😊”</strong>
   `.trim();
 
   const messages = [
