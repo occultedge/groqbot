@@ -20,6 +20,40 @@ export default async function handler(req, res) {
   <li>Technical Certifications: Dev, Cybersecurity, Data Analytics</li>
   <li>British K–12 Online School (Africa)</li>
   <li>Franchise options </li>
+  <li><strong>Jain University (Bangalore, NAAC A++)</strong>: MBA, BBA, B.Com in various specializations</li>
+    <li><strong>Chandigarh University</strong>: MBA in HR, Finance, Marketing, International Business</li>
+    <li><strong>D.Y. Patil University (Mumbai)</strong>: MBA, MCA, Business Analytics, Healthcare, Cybersecurity</li>
+    <li><strong>KIIT University (Odisha)</strong>: MA in English, Economics, MBA with electives</li>
+    <li><strong>Dr. MGR University (Chennai)</strong>: MCA in AI/ML, Full Stack; MBA X, MBA Plus</li>
+    <li><strong>Andhra University</strong>: MBA, BCA, BA (Social Sciences)</li>
+    <li><strong>Kurukshetra University</strong>: BBA in Fintech, Retail; MBA - Data Science</li>
+    <li><strong>OP Jindal University</strong>: MBA in Healthcare, Agribusiness, International Business</li>
+    <li><strong>Vivekananda Global University</strong>: MBA - Digital, Logistics; MCA - AI, Data Science</li>
+    <li><strong>Centurion University</strong>: MBA - Analytics, Healthcare; MCA - Data Science</li>
+    <li><strong>Vignan & Koneru Lakshmaiah (Andhra)</strong>: BCA/MCA in IT, VFX, Gaming</li>
+  </ul>
+
+  <strong>💰 Consultancy Packages:</strong>
+  <ul>
+    <li><strong>Bronze ($500)</strong>: Application help + program selection</li>
+    <li><strong>Silver ($1000)</strong>: Bronze + AEQ guidance + visa support</li>
+    <li><strong>Gold ($1500)</strong>: Silver + mentorship, networking, and full support</li>
+  </ul>
+
+  <strong>🌍 Franchise Models:</strong>
+  <ul>
+    <li><strong>Master Franchise</strong>: Control a country, revenue sharing</li>
+    <li><strong>Unit Franchise</strong>: One-location setup, easier entry</li>
+  </ul>
+  <p>Includes over 1000 job-ready courses in IT, Nursing, Agriculture, Beauty, Telecom, and more. Most programs are 3–6 months long and come with placement support.</p>
+
+  <strong>📍 Our Centers Worldwide:</strong>
+  <ul>
+    <li><strong>Asia:</strong> Philippines, Bangladesh, Indonesia, Japan</li>
+    <li><strong>Africa:</strong> Nigeria, Cameroon, Zambia, Zimbabwe, South Africa, Botswana, Namibia, Kenya, Uganda, Togo, Algeria, Senegal, etc.</li>
+    <li><strong>North America:</strong> 🇺🇸 USA, 🇨🇦 Canada</li>
+  </ul>
+
 </ul>
 
 <ul>
@@ -55,6 +89,40 @@ export default async function handler(req, res) {
   <li>India-based internships (certified)</li>
   <li>Online British K–12 School</li>
   <li>Vocational training & certifications</li>
+  <li><strong>Jain University (Bangalore, NAAC A++)</strong>: MBA, BBA, B.Com in various specializations</li>
+    <li><strong>Chandigarh University</strong>: MBA in HR, Finance, Marketing, International Business</li>
+    <li><strong>D.Y. Patil University (Mumbai)</strong>: MBA, MCA, Business Analytics, Healthcare, Cybersecurity</li>
+    <li><strong>KIIT University (Odisha)</strong>: MA in English, Economics, MBA with electives</li>
+    <li><strong>Dr. MGR University (Chennai)</strong>: MCA in AI/ML, Full Stack; MBA X, MBA Plus</li>
+    <li><strong>Andhra University</strong>: MBA, BCA, BA (Social Sciences)</li>
+    <li><strong>Kurukshetra University</strong>: BBA in Fintech, Retail; MBA - Data Science</li>
+    <li><strong>OP Jindal University</strong>: MBA in Healthcare, Agribusiness, International Business</li>
+    <li><strong>Vivekananda Global University</strong>: MBA - Digital, Logistics; MCA - AI, Data Science</li>
+    <li><strong>Centurion University</strong>: MBA - Analytics, Healthcare; MCA - Data Science</li>
+    <li><strong>Vignan & Koneru Lakshmaiah (Andhra)</strong>: BCA/MCA in IT, VFX, Gaming</li>
+  </ul>
+
+  <strong>💰 Consultancy Packages:</strong>
+  <ul>
+    <li><strong>Bronze ($500)</strong>: Application help + program selection</li>
+    <li><strong>Silver ($1000)</strong>: Bronze + AEQ guidance + visa support</li>
+    <li><strong>Gold ($1500)</strong>: Silver + mentorship, networking, and full support</li>
+  </ul>
+
+  <strong>🌍 Franchise Models:</strong>
+  <ul>
+    <li><strong>Master Franchise</strong>: Control a country, revenue sharing</li>
+    <li><strong>Unit Franchise</strong>: One-location setup, easier entry</li>
+  </ul>
+  <p>Includes over 1000 job-ready courses in IT, Nursing, Agriculture, Beauty, Telecom, and more. Most programs are 3–6 months long and come with placement support.</p>
+
+  <strong>📍 Our Centers Worldwide:</strong>
+  <ul>
+    <li><strong>Asia:</strong> Philippines, Bangladesh, Indonesia, Japan</li>
+    <li><strong>Africa:</strong> Nigeria, Cameroon, Zambia, Zimbabwe, South Africa, Botswana, Namibia, Kenya, Uganda, Togo, Algeria, Senegal, etc.</li>
+    <li><strong>North America:</strong> 🇺🇸 USA, 🇨🇦 Canada</li>
+  </ul>
+
 </ul>
 📞 Contact:
 <ul>
