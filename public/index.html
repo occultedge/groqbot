@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Occultedge AI Professor</title>
+  <title>Occultedge AI Assistant</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -49,6 +49,8 @@
       cursor: pointer;
     }
   </style>
+  <!-- ✅ Include DOMPurify to safely render AI's HTML -->
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
 </head>
 <body>
   <div class="chatbox">
@@ -96,13 +98,8 @@
         });
 
         const data = await res.json();
-        const botReply = data.reply
-          .replace(/\n/g, "<br>")
-          .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>")
-          .replace(/\*(.*?)\*/g, "<i>$1</i>")
-          .replace(/(https?:\/\/[^\s]+)/g, url => `<a href="${url}" target="_blank">${url}</a>`);
-
-        chat.innerHTML += `<div class="msg bot"><b>AI:</b> ${botReply}</div>`;
+        const safeHTML = DOMPurify.sanitize(data.reply); // ✅ Sanitize AI HTML
+        chat.innerHTML += `<div class="msg bot"><b>AI:</b> ${safeHTML}</div>`;
         chat.scrollTop = chat.scrollHeight;
 
       } catch (err) {
