@@ -12,6 +12,14 @@ export default async function handler(req, res) {
       name: "TechOccult",
       summary: `
 <strong>Programs Offered:</strong>
+📌 All responses must use proper HTML formatting only:
+<ul>
+  <li>Use &lt;strong&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;br&gt;, and &lt;a href="..."&gt;</li>
+  <li>Never output plain text links or unformatted program names</li>
+  <li>Use bullet lists (ul/li) for any course, program, or step-by-step item</li>
+</ul>
+🚫 Absolutely no raw URLs, no markdown, no inconsistent casing or layout.
+✅ Every message must look clean, structured, and web-ready.
 <ul>
   <li>Software Engineering, Web Development, Cybersecurity</li>
   <li>Internships in India (Tech & Creative)</li>
