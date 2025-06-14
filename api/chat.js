@@ -19,14 +19,12 @@ export default async function handler(req, res) {
   <li>Vocational Diplomas (Fashion, Retail, Baking, Beauty)</li>
   <li>Technical Certifications: Dev, Cybersecurity, Data Analytics</li>
   <li>British K–12 Online School (Africa)</li>
-  <li>Franchise options + LMS via <a href="https://www.occultedge.com/orion-softtech" target="_blank">Orion Softtech</a></li>
+  <li>Franchise options </li>
 </ul>
-📞 Contact:
+
 <ul>
   <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-  <li>WhatsApp: <a href="https://wa.me/919953330039" target="_blank">+91 99533 30039</a></li>
-</ul>
-<a href="https://techoccult.com/admissions" target="_blank">Start Application</a>
+ 
       `.trim()
     },
 
@@ -42,10 +40,7 @@ export default async function handler(req, res) {
 </ul>
 📞 Contact:
 <ul>
-  <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-  <li>WhatsApp: <a href="https://wa.me/919953330039" target="_blank">+91 99533 30039</a></li>
-</ul>
-<a href="https://occultedge-kenya.com/register" target="_blank">Register Here</a>
+ 
       `.trim()
     }
     // ➕ Add more domains as needed
