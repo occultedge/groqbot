@@ -15,25 +15,20 @@ export default async function handler(req, res) {
 <ul>
   <li>Software Engineering, Web Development, Cybersecurity</li>
   <li>India-based Internship Opportunities</li>
-  <ul>
-  <li>Accredited UG & PG programs in Business, Nursing, IT, Agriculture, and Social Sciences — including Sikkim Manipal University Online</li>
-  <li>Vocational Diplomas in Fashion Design, Beauty Therapy, Baking, Retail, and Tourism — industry-aligned and job-focused</li>
-  <li>Technical Certifications in Web Development, Cybersecurity, Data Analytics, Software Engineering, and Hardware Support</li>
-  <li>British-patterned K–12 Online School for students across Africa, with full support for primary and secondary education</li>
-  <li>Admission guidance and academic counseling tailored to students from Cameroon, Kenya, Uganda, Ghana, and beyond</li>
-  <li>Internship Programs in India for top-performing students across healthcare, tech, and creative fields — includes certification</li>
-  <li>Exam schedules, result portals, and assignment uploads managed via a central academic dashboard</li>
-  <li>Franchise opportunities available for educational centers and consultants across Africa and the Middle East</li>
-  <li>Custom LMS solutions and digital portals available through our partner tech division: <a href="https://www.occultedge.com/orion-softtech">Orion Softtech</a></li>
-  <li>One-stop student support via WhatsApp: <a href="https://wa.me/919953330039">+91 99533 30039</a> and email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-</ul>
-
-  <li>Online Certifications for African Students</li>
+  <li>UG & PG programs in Business, Nursing, IT, Agriculture, and Social Sciences</li>
+  <li>Vocational Diplomas in Fashion Design, Beauty Therapy, Baking, Retail, Tourism</li>
+  <li>Technical Certifications: Web Development, Cybersecurity, Data Analytics, Software Engineering, Hardware Support</li>
+  <li>K–12 British-pattern Online School (Africa-focused)</li>
+  <li>Academic support for Cameroon, Kenya, Uganda, Ghana, and more</li>
+  <li>Internships in India with certification</li>
+  <li>Franchise & Educational Consultant Opportunities</li>
+  <li>Custom LMS via <a href="https://www.occultedge.com/orion-softtech">Orion Softtech</a></li>
+  <li>Support: <a href="mailto:info@occultedge.com">info@occultedge.com</a>, <a href="https://wa.me/919953330039">+91 99533 30039</a></li>
 </ul>
 📎 Useful Links:
 <ul>
   <li><a href="https://techoccult.com/admissions">Apply Now</a></li>
-  <li>WhatsApp: <a href="https://wa.me/919876543210">+91 98765 43210</a></li>
+  <li><a href="https://wa.me/919876543210">WhatsApp Support</a></li>
 </ul>
       `.trim()
     },
@@ -43,27 +38,47 @@ export default async function handler(req, res) {
       summary: `
 <strong>Programs Available:</strong>
 <ul>
-  <li>Diplomas in Nursing, IT, Agriculture</li>
+  <li>Diplomas in Nursing, IT, and Agriculture</li>
   <li>Accredited Online Programs in Nursing, Information Technology, and Agricultural Sciences — including Bachelor's, Master's, and Diploma pathways from institutions like Sikkim Manipal University Online</li>
-<ul>
-  <li>Accredited UG & PG programs in Business, Nursing, IT, Agriculture, and Social Sciences — including Sikkim Manipal University Online</li>
-  <li>Vocational Diplomas in Fashion Design, Beauty Therapy, Baking, Retail, and Tourism — industry-aligned and job-focused</li>
-  <li>Technical Certifications in Web Development, Cybersecurity, Data Analytics, Software Engineering, and Hardware Support</li>
-  <li>British-patterned K–12 Online School for students across Africa, with full support for primary and secondary education</li>
-  <li>Admission guidance and academic counseling tailored to students from Cameroon, Kenya, Uganda, Ghana, and beyond</li>
-  <li>Internship Programs in India for top-performing students across healthcare, tech, and creative fields — includes certification</li>
-  <li>Exam schedules, result portals, and assignment uploads managed via a central academic dashboard</li>
-  <li>Franchise opportunities available for educational centers and consultants across Africa and the Middle East</li>
-  <li>Custom LMS solutions and digital portals available through our partner tech division: <a href="https://www.occultedge.com/orion-softtech">Orion Softtech</a></li>
-  <li>One-stop student support via WhatsApp: <a href="https://wa.me/919953330039">+91 99533 30039</a> and email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-</ul>
-
+  <li>UG & PG programs in Business, Nursing, IT, Agriculture, and Social Sciences — including Sikkim Manipal University Online</li>
+  <li>Vocational Diplomas in:
+    <ul>
+      <li>Fashion Design</li>
+      <li>Beauty Therapy</li>
+      <li>Baking</li>
+      <li>Retail</li>
+      <li>Tourism</li>
+    </ul>
+  </li>
+  <li>Technical Certifications in:
+    <ul>
+      <li>Web Development</li>
+      <li>Cybersecurity</li>
+      <li>Data Analytics</li>
+      <li>Software Engineering</li>
+      <li>Hardware Support</li>
+    </ul>
+  </li>
+  <li>British-patterned K–12 Online School for students across Africa</li>
+  <li>Admission guidance and academic counseling tailored for Cameroon, Kenya, Uganda, Ghana, and more</li>
+  <li>India-based Internship Programs with certification across healthcare, tech, and creative fields</li>
+  <li>Exam schedules, result portals, and assignment uploads via centralized dashboard</li>
+  <li>Franchise opportunities for educational centers and consultants in Africa and the Middle East</li>
+  <li>Custom LMS platforms and digital portals from <a href="https://www.occultedge.com/orion-softtech">Orion Softtech</a></li>
+  <li>24×7 Student Support:
+    <ul>
+      <li>WhatsApp: <a href="https://wa.me/919953330039">+91 99533 30039</a></li>
+      <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
+    </ul>
+  </li>
   <li>Career-focused Internships and Skill Programs</li>
 </ul>
-📞 Contact:
+
+📞 <strong>Contact:</strong>
 <ul>
   <li><a href="https://occultedge-kenya.com/register">Register Here</a></li>
 </ul>
+
       `.trim()
     }
 
