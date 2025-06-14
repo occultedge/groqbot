@@ -6,6 +6,7 @@ export default async function handler(req, res) {
   const { message, siteType = '', origin = '' } = req.body;
   const site = origin || req.headers.origin || 'this site';
 
+  // 🌍 Microsite-specific content
   const siteConfigs = {
     "techoccult.com": {
       name: "TechOccult",
@@ -13,77 +14,80 @@ export default async function handler(req, res) {
 <strong>Programs Offered:</strong>
 <ul>
   <li>Software Engineering, Web Development, Cybersecurity</li>
-  <li>India-based Internship Opportunities</li>
-  <li>UG & PG programs in Business, Nursing, IT, Agriculture, and Social Sciences</li>
-  <li>Vocational Diplomas in Fashion Design, Beauty Therapy, Baking, Retail, Tourism</li>
-  <li>Certifications: Web Dev, Cybersecurity, Data Analytics, Software Engineering</li>
-  <li>British K–12 Online School</li>
-  <li>Internships, LMS, Franchise options</li>
+  <li>Internships in India (Tech & Creative)</li>
+  <li>UG & PG degrees (Sikkim Manipal, online)</li>
+  <li>Vocational Diplomas (Fashion, Retail, Baking, Beauty)</li>
+  <li>Technical Certifications: Dev, Cybersecurity, Data Analytics</li>
+  <li>British K–12 Online School (Africa)</li>
+  <li>Franchise options + LMS via <a href="https://www.occultedge.com/orion-softtech" target="_blank">Orion Softtech</a></li>
 </ul>
 📞 Contact:
 <ul>
   <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-  <li>WhatsApp: <a href="https://wa.me/919953330039">+91 99533 30039</a></li>
+  <li>WhatsApp: <a href="https://wa.me/919953330039" target="_blank">+91 99533 30039</a></li>
 </ul>
-<a href="https://techoccult.com/admissions">Apply Now</a>
+<a href="https://techoccult.com/admissions" target="_blank">Start Application</a>
       `.trim()
     },
+
     "occultedgeusa.com": {
       name: "Occultedge USA",
       summary: `
-<strong>Available Programs:</strong>
+<strong>Popular Programs:</strong>
 <ul>
-  <li>Diplomas in Nursing, IT, Agriculture</li>
-  <li>Sikkim Manipal University online degrees</li>
-  <li>Vocational Training: Fashion, Retail, Beauty, Tourism</li>
-  <li>K–12 School, Internships, Certifications</li>
-  <li>Franchise opportunities and partner portals</li>
+  <li>Nursing, IT, Agriculture (Diplomas & Degrees)</li>
+  <li>Sikkim Manipal University Online Pathways</li>
+  <li>Vocational Training (Fashion, Retail, Beauty)</li>
+  <li>Franchise & LMS Platforms</li>
 </ul>
 📞 Contact:
 <ul>
   <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-  <li>WhatsApp: <a href="https://wa.me/919953330039">+91 99533 30039</a></li>
+  <li>WhatsApp: <a href="https://wa.me/919953330039" target="_blank">+91 99533 30039</a></li>
 </ul>
-<a href="https://occultedge-kenya.com/register">Register Here</a>
+<a href="https://occultedge-kenya.com/register" target="_blank">Register Here</a>
       `.trim()
     }
-    // Add more domains as needed
+    // ➕ Add more domains as needed
   };
 
   const context = siteConfigs[origin] || {
     name: "Occultedge",
     summary: `
-<strong>Programs & Services:</strong>
+<strong>Available Programs:</strong>
 <ul>
-  <li>Diplomas: Nursing, IT, Agriculture, Fashion Design</li>
-  <li>K–12 Online School (British-based)</li>
-  <li>Vocational training & skill certifications</li>
-  <li>Internship placements in India (certified)</li>
-  <li>Exam registration & results</li>
+  <li>Diplomas in IT, Nursing, Agriculture</li>
+  <li>India-based internships (certified)</li>
+  <li>Online British K–12 School</li>
+  <li>Vocational training & certifications</li>
 </ul>
 📞 Contact:
 <ul>
   <li>Email: <a href="mailto:info@occultedge.com">info@occultedge.com</a></li>
-  <li>WhatsApp: <a href="https://wa.me/919953330039">+91 99533 30039</a></li>
+  <li>WhatsApp: <a href="https://wa.me/919953330039" target="_blank">+91 99533 30039</a></li>
 </ul>
-<a href="https://www.occultedge.com/saint-austins-form">Start Application</a>
+<a href="https://www.occultedge.com/saint-austins-form" target="_blank">Apply Now</a>
     `.trim()
   };
 
   let systemPrompt = `
-You are <strong>EdgeMentor</strong>, an academic counselor for <strong>${context.name}</strong>.
+You are <strong>EdgeMentor</strong> — an academic counselor for <strong>${context.name}</strong>.
 
-📄 Here’s what the site offers:
+📄 What this site offers:
 ${context.summary}
 
-✅ Your Role:
-- Guide students or parents to the right programs
-- Explain how to apply, register, or join internships
-- Always respond using <strong>, <ul>, <li>, and <a> HTML tags
-🚫 Never mention Groq, OpenAI, language models, or APIs.
+✅ Your Behavior:
+<ul>
+  <li>Guide users about programs, admissions, exams, internships</li>
+  <li>Provide direct answers based on the above info</li>
+  <li>Use HTML formatting: <strong>, <ul>, <li>, <a href=""></a></li>
+  <li>Always format links like: <a href="https://example.com" target="_blank">Link Text</a></li>
+  <li>Never insert raw URLs or markdown links</li>
+  <li>Never mention Groq, OpenAI, APIs, or models</li>
+</ul>
 
 End replies with:
-“Would you like help applying or exploring more programs? 😊”
+<strong>“Would you like help applying or exploring more programs? 😊”</strong>
   `.trim();
 
   const messages = [
@@ -95,7 +99,7 @@ End replies with:
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer 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", // Use your key
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
@@ -105,11 +109,11 @@ End replies with:
     });
 
     const data = await response.json();
-    const reply = data.choices?.[0]?.message?.content || "Sorry, I couldn’t respond.";
+    const reply = data.choices?.[0]?.message?.content || "AI could not respond.";
     res.status(200).json({ reply });
 
   } catch (error) {
-    console.error("❌ API error:", error);
-    res.status(500).json({ reply: "Server error. Please try again." });
+    console.error("❌ Chat API error:", error);
+    res.status(500).json({ reply: "Server error. Please try again later." });
   }
 }
