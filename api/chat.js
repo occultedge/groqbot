@@ -33,12 +33,125 @@ export default async function handler(req, res) {
     <li><strong>Vignan & Koneru Lakshmaiah (Andhra)</strong>: BCA/MCA in IT, VFX, Gaming</li>
   </ul>
 
-  <strong>💰 Consultancy Packages:</strong>
+  <div>
+  <strong>🚀 Franchise Opportunity with Occultedge India</strong><br><br>
+
+  <strong>🌍 Global Demand:</strong><br>
+  There’s an intense demand worldwide for vocational education, training, and job placement. Occultedge is expanding and actively seeking <strong>franchise partners</strong> across countries to replicate our successful India model.<br><br>
+
+  <strong>📘 About Occultedge:</strong>
   <ul>
-    <li><strong>Bronze ($500)</strong>: Application help + program selection</li>
-    <li><strong>Silver ($1000)</strong>: Bronze + AEQ guidance + visa support</li>
-    <li><strong>Gold ($1500)</strong>: Silver + mentorship, networking, and full support</li>
+    <li>India’s #1 vocational education company</li>
+    <li>Operating in 31+ countries across Asia, Africa, and the Americas</li>
+    <li>Visit us: <a href="https://www.occultedge.com" target="_blank">www.occultedge.com</a></li>
   </ul>
+
+  <strong>📚 Our Education Model:</strong>
+  <ul>
+    <li>Blended learning: 80% live online + 20% local facilitation</li>
+    <li>Full support for admissions, training, placements, and student management</li>
+    <li>Courses: Certificates to PhDs (2 days to 4 years)</li>
+    <li>India-based internships for global employability</li>
+  </ul>
+<div>
+  <strong>🚀 Franchise Opportunity with Occultedge India</strong><br><br>
+
+  <strong>🌍 Global Demand:</strong><br>
+  There’s an intense demand worldwide for vocational education, training, and job placement. Occultedge is expanding and actively seeking <strong>franchise partners</strong> across countries to replicate our successful India model.<br><br>
+
+  <strong>📘 About Occultedge:</strong>
+  <ul>
+    <li>India’s #1 vocational education company</li>
+    <li>Operating in 31+ countries across Asia, Africa, and the Americas</li>
+    <li>Visit us: <a href="https://www.occultedge.com" target="_blank">www.occultedge.com</a></li>
+  </ul>
+
+  <strong>📚 Our Education Model:</strong>
+  <ul>
+    <li>Blended learning: 80% live online + 20% local facilitation</li>
+    <li>Full support for admissions, training, placements, and student management</li>
+    <li>Courses: Certificates to PhDs (2 days to 4 years)</li>
+    <li>India-based internships for global employability</li>
+  </ul>
+
+  <strong>🎓 Course Domains (1000+ Available):</strong>
+  <ul>
+    <li>Cell Phone Repair, IT, Software, Networking</li>
+    <li>Hotel Management, Agriculture, Beauty & Health</li>
+    <li>Telecom, Nursing, Management, Fire Safety, Auto, and more</li>
+  </ul>
+
+  <strong>🤝 What’s Expected of You:</strong>
+  <ul>
+    <li>Start online, then launch a physical center</li>
+    <li>Identify and manage additional locations</li>
+    <li>Share revenue across Retail, E-learning, Corporate & Government sectors</li>
+    <li>100 sq. meter center + 3 staff (including yourself)</li>
+  </ul>
+
+  <strong>📄 Next Steps:</strong>
+  <ul>
+    <li>Sign an MOU with initial deposit</li>
+    <li>Attend 2-day induction & planning</li>
+    <li>Franchise agreement signed within 45 days</li>
+    <li>We provide platform, ERP, website, and staff training</li>
+  </ul>
+
+  🎥 <strong>Demo:</strong> <a href="https://www.youtube.com/watch?v=Xe8F2ZyUW2g&t=39s" target="_blank">Watch Our Student Management System Demo</a><br><br>
+
+  <strong>💰 Franchise Models & Pricing:</strong>
+  <ul>
+    <li><strong>Master Franchise:</strong> USD 8000<br>(Jurisdiction: entire country)</li>
+    <li><strong>Unit Franchise:</strong> USD 4000<br>(Jurisdiction: single location)</li>
+    <li><strong>Initial Deposit with MOU:</strong><br>Master: USD 2000<br>Unit: USD 1000</li>
+  </ul>
+
+ 
+  
+
+  <em>We look forward to building your center with you. — Occultedge India</em>
+</div>
+
+  <strong>🎓 Course Domains (1000+ Available):</strong>
+  <ul>
+    <li>Cell Phone Repair, IT, Software, Networking</li>
+    <li>Hotel Management, Agriculture, Beauty & Health</li>
+    <li>Telecom, Nursing, Management, Fire Safety, Auto, and more</li>
+  </ul>
+
+  <strong>🤝 What’s Expected of You:</strong>
+  <ul>
+    <li>Start online, then launch a physical center</li>
+    <li>Identify and manage additional locations</li>
+    <li>Share revenue across Retail, E-learning, Corporate & Government sectors</li>
+    <li>100 sq. meter center + 3 staff (including yourself)</li>
+  </ul>
+
+  <strong>📄 Next Steps:</strong>
+  <ul>
+    <li>Sign an MOU with initial deposit</li>
+    <li>Attend 2-day induction & planning</li>
+    <li>Franchise agreement signed within 45 days</li>
+    <li>We provide platform, ERP, website, and staff training</li>
+  </ul>
+
+  🎥 <strong>Demo:</strong> <a href="https://www.youtube.com/watch?v=Xe8F2ZyUW2g&t=39s" target="_blank">Watch Our Student Management System Demo</a><br><br>
+
+  <strong>💰 Franchise Models & Pricing:</strong>
+  <ul>
+    <li><strong>Master Franchise:</strong> USD 8000<br>(Jurisdiction: entire country)</li>
+    <li><strong>Unit Franchise:</strong> USD 4000<br>(Jurisdiction: single location)</li>
+    <li><strong>Initial Deposit with MOU:</strong><br>Master: USD 2000<br>Unit: USD 1000</li>
+  </ul>
+
+  <strong>📧 Contact:</strong><br>
+  <a href="mailto:info@occultedge.com" target="_blank">info@occultedge.com</a><br>
+  <a href="https://wa.me/919953330039" target="_blank">WhatsApp: +91 99533 30039</a><br><br>
+
+  <em>We look forward to building your center with you. — Occultedge India</em>
+</div>
+
+  
 
   <strong>🌍 Franchise Models:</strong>
   <ul>
