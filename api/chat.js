@@ -25,7 +25,7 @@ Always follow this cycle. Keep answers well formatted using markdown.
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
