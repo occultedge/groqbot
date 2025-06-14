@@ -29,7 +29,7 @@ Always follow this cycle. Keep answers well formatted using markdown.
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-3-8b-instruct",  // ✅ this must be exact
+        model: "meta-llama/llama-4-scout-17b-16e-instruct",  // ✅ this must be exact
         messages
       })
     });
