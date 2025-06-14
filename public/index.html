@@ -64,29 +64,50 @@
     const input = document.getElementById('userInput');
     const chat = document.getElementById('chat');
 
+    // 🔍 Detect site type based on URL
+    function detectSiteType() {
+      const url = window.location.href.toLowerCase();
+      if (url.includes("tutor")) return "tutor";
+      if (url.includes("counselor")) return "counselor";
+      if (url.includes("admin")) return "admin";
+      if (url.includes("admission")) return "admissions";
+      return "general";
+    }
+
+    // 📤 Handle message submit
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const msg = input.value.trim();
       if (!msg) return;
+
       chat.innerHTML += `<div class="msg user"><b>You:</b> ${msg}</div>`;
       input.value = '';
       chat.scrollTop = chat.scrollHeight;
 
-      const res = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: msg })
-      });
+      try {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: msg,
+            siteType: detectSiteType(),
+            origin: window.location.hostname
+          })
+        });
 
-      const data = await res.json();
-      const botReply = data.reply
-        .replace(/\n/g, "<br>")
-        .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>")
-        .replace(/\*(.*?)\*/g, "<i>$1</i>")
-        .replace(/(https?:\/\/[^\s]+)/g, url => `<a href="${url}" target="_blank">${url}</a>`);
+        const data = await res.json();
+        const botReply = data.reply
+          .replace(/\n/g, "<br>")
+          .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>")
+          .replace(/\*(.*?)\*/g, "<i>$1</i>")
+          .replace(/(https?:\/\/[^\s]+)/g, url => `<a href="${url}" target="_blank">${url}</a>`);
 
-      chat.innerHTML += `<div class="msg bot"><b>AI:</b> ${botReply}</div>`;
-      chat.scrollTop = chat.scrollHeight;
+        chat.innerHTML += `<div class="msg bot"><b>AI:</b> ${botReply}</div>`;
+        chat.scrollTop = chat.scrollHeight;
+
+      } catch (err) {
+        chat.innerHTML += `<div class="msg bot"><b>AI:</b> Error: ${err.message}</div>`;
+      }
     });
   </script>
 </body>
