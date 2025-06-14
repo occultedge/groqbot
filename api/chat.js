@@ -16,6 +16,33 @@ export default async function handler(req, res) {
   <li>Software Engineering, Web Development, Cybersecurity</li>
   <li>Internships in India (Tech & Creative)</li>
   <li>UG & PG degrees (Sikkim Manipal, online)</li>
+  <strong>🎓 Sample Programs Available at Occultedge</strong>
+  <p>We offer 1000+ government-supported vocational, diploma, and degree courses — job-ready, online, and internationally accepted.</p>
+
+  <strong>Popular Program Categories:</strong>
+  
+    <li><strong>Beauty & Wellness:</strong> Advanced Beauty Therapy, Basic Life Support (BLS)</li>
+    <li><strong>Healthcare & Safety:</strong> Advanced Fire Safety, Basic Firefighting & Safety, Nursing, Public Health</li>
+    <li><strong>Engineering & Tech:</strong> Civil Engineering, AI & Data Science, Computer Applications, IT & Networking</li>
+    <li><strong>Mobile & Electronics:</strong> Advanced Mobile Phone Repairing, Automotive Diagnostics</li>
+    <li><strong>Hospitality & Management:</strong> Hotel & Tourism Management, Management Studies, Business Administration</li>
+    <li><strong>Agriculture & Food Processing:</strong> Agro-Packaging, Allied Health Sciences</li>
+  </ul>
+
+  <strong>💡 Program Formats:</strong>
+  <ul>
+    <li>Short-term Certifications (2 days to 6 months)</li>
+    <li>Diplomas (6–18 months)</li>
+    <li>UG/PG Degrees (BBA, B.Sc., B.Tech, MBA, MCA, M.Sc., etc.)</li>
+    <li>Internship-integrated + India visit options</li>
+  </ul>
+
+  <strong>🌐 Learning Modes:</strong>
+  <ul>
+    <li>Online (Live classes + LMS)</li>
+    <li>Hybrid (80% online + 20% local facilitation)</li>
+    <li>On-campus (India/Partner Institutions)</li>
+  
   <li>Vocational Diplomas (Fashion, Retail, Baking, Beauty)</li>
   <li>Technical Certifications: Dev, Cybersecurity, Data Analytics</li>
   <li>British K–12 Online School (Africa)</li>
