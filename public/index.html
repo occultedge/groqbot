@@ -83,6 +83,15 @@
       if (!msg) return;
 
       chat.innerHTML += `<div class="msg user"><b>You:</b> ${msg}</div>`;
+      // Intercept link clicks inside the bot reply
+const botLinks = chat.querySelectorAll('.msg.bot a');
+botLinks.forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.open(this.href, '_blank');
+  });
+});
+
       input.value = '';
       chat.scrollTop = chat.scrollHeight;
 
